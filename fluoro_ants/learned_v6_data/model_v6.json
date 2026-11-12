@@ -1,0 +1,50 @@
+{
+ "schema": "learned_v6.background_anchored_logistic",
+ "version": "v6.3",
+ "feats": [
+  "ringnear",
+  "zmean",
+  "zmax",
+  "noiserel",
+  "reftone",
+  "aspect"
+ ],
+ "log_feats": [
+  "ringnear",
+  "zmean",
+  "zmax",
+  "reftone"
+ ],
+ "clip": 12.0,
+ "mean": [
+  0.46260421632433,
+  1.1839008441605237,
+  0.7021650571193611,
+  0.15478883284262362,
+  0.00016075716452510364,
+  0.5189280256783718
+ ],
+ "scale": [
+  1.4338814787829939,
+  2.172727829395455,
+  1.405421598640301,
+  1.6149359372272192,
+  1.1748678983259684,
+  1.5384961798157488
+ ],
+ "coef": [
+  0.4692009320099737,
+  0.7866812711212583,
+  0.83294182963684,
+  -0.597099879476906,
+  -0.4856191746942551,
+  0.6313176787312363
+ ],
+ "intercept": -1.3746462754713822,
+ "threshold": 0.6788447861946206,
+ "norm": "median_lower_half_mad",
+ "n_labelled": 1315,
+ "n_pos": 225,
+ "n_blind": 224,
+ "note": "Calibration data: 16 image sets, 1315 manually judged candidates, 224 of them from three rounds of blind judging"
+}
